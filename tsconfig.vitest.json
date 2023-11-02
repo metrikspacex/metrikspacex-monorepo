@@ -1,0 +1,118 @@
+/* Visit https://aka.ms/tsconfig to read more about this file */
+{
+  "compilerOptions": {
+    //===========//
+    /* Projects */
+    //==========//
+    // "composite": true,
+    // "disableReferencedProjectLoad": true,
+    // "disableSolutionSearching": true,
+    // "disableSourceOfProjectReferenceRedirect": true,
+    // "incremental": true,
+    // "tsBuildInfoFile": "./.tsbuildinfo",
+
+    /* Language and Environment */
+    // "emitDecoratorMetadata": true,
+    // "experimentalDecorators": true,
+    // "jsx": "preserve",
+    // "jsxFactory": "",
+    // "jsxFragmentFactory": "",
+    // "jsxImportSource": "",
+    "lib": ["ES2020"],
+    "moduleDetection": "force",
+    // "noLib": false,
+    // "reactNamespace": "",
+    "target": "ES2020",
+    // "useDefineForClassFields": true,
+    //==========//
+    /* Modules */
+    //=========//
+    // "allowArbitraryExtensions": true,
+    // "allowImportingTsExtensions": true,
+    "allowJs": true,
+    // "allowUmdGlobalAccess": true,
+    // "baseUrl": "./",
+    "checkJs": true,
+    // "customConditions": [],
+    // "maxNodeModuleJsDepth": 1,
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    // "moduleSuffixes": [],
+    // "noResolve": true,
+    // "paths": {},
+    // "resolveJsonModule": true,
+    "resolvePackageJsonExports": true,
+    "resolvePackageJsonImports": true,
+    // "rootDir": "./",
+    // "rootDirs": [],
+    // "typeRoots": [],
+    // "types": [],
+    //=======//
+    /* Emit */
+    //======//
+    // "declaration": true,
+    // "declarationDir": "./dist/types",
+    // "declarationMap": true,
+    // "downlevelIteration": true,
+    // "emitBOM": true,
+    // "emitDeclarationOnly": false,
+    // "importHelpers": true,
+    // "importsNotUsedAsValues": "remove",
+    // "inlineSourceMap": true,
+    // "inlineSources": true,
+    // "mapRoot": "",
+    // "newLine": "crlf",
+    // "noEmit": true,
+    // "noEmitHelpers": true,
+    // "noEmitOnError": true,
+    "outDir": "./dist/",
+    // "preserveConstEnums": true,
+    // "preserveValueImports": false,
+    // "removeComments": true,
+    "sourceMap": true,
+    // "sourceRoot": "",
+    // "stripInternal": true,
+    //======================//
+    /* Interop Constraints */
+    //=====================//
+    // "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    // "forceConsistentCasingInFileNames": true,
+    // "isolatedModules": true,
+    // "preserveSymlinks": true,
+    "verbatimModuleSyntax": true,
+    //================//
+    /* Type Checking */
+    //===============//
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "alwaysStrict": true,
+    "exactOptionalPropertyTypes": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strict": true,
+    "strictBindCallApply": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    "useUnknownInCatchVariables": true,
+    //===============//
+    /* Completeness */
+    //==============//
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true
+  },
+  "exclude": ["./dist", "./node_modules"],
+  "files": ["./tsconfig.vitest.json", "./vitest.workspace.ts"],
+  "include": [],
+  "typeAcquisition": {
+    "enable": true
+  }
+}

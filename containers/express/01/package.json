@@ -1,0 +1,14 @@
+{
+  "name": "@metrikspacex/sdk",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "",
+    "eslint": "",
+    "prettier": "",
+    "publint": "",
+    "test": ""
+  },
+  "dependencies": {
+    "typescript": "^5.2.2"
+  }
+}

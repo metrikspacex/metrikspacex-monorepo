@@ -1,0 +1,106 @@
+{
+  "compilerOptions": {
+    /* Visit https://aka.ms/tsconfig to read more about this file */
+
+    /* Projects */
+    "composite": true,
+    "disableReferencedProjectLoad": true,
+    "disableSolutionSearching": true,
+    "disableSourceOfProjectReferenceRedirect": true,
+    "incremental": true,
+    "tsBuildInfoFile": "./.tsbuildinfo",
+
+    /* Language and Environment */
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "jsx": "preserve",
+    "jsxFactory": "",
+    "jsxFragmentFactory": "",
+    "jsxImportSource": "",
+    "lib": ["ES2020"],
+    "moduleDetection": "auto",
+    "noLib": false,
+    "reactNamespace": "",
+    "target": "es2016",
+    "useDefineForClassFields": true,
+
+    /* Modules */
+    "allowArbitraryExtensions": true,
+    "allowImportingTsExtensions": true,
+    "allowJs": true,
+    "allowUmdGlobalAccess": true,
+    "baseUrl": "./",
+    "checkJs": true,
+    "customConditions": [],
+    "maxNodeModuleJsDepth": 1,
+    "module": "ES2020",
+    "moduleResolution": "bundler",
+    "moduleSuffixes": [],
+    "noResolve": true,
+    "paths": {},
+    "resolveJsonModule": true,
+    "resolvePackageJsonExports": true,
+    "resolvePackageJsonImports": true,
+    "rootDir": "./",
+    "rootDirs": [],
+    "typeRoots": [],
+    "types": [],
+
+    /* Emit */
+    "declaration": true,
+    "declarationDir": "./dist/types",
+    "declarationMap": true,
+    "downlevelIteration": true,
+    "emitBOM": true,
+    "emitDeclarationOnly": false,
+    "importHelpers": true,
+    "importsNotUsedAsValues": "remove",
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "mapRoot": "",
+    "newLine": "crlf",
+    "noEmit": true,
+    "noEmitHelpers": true,
+    "noEmitOnError": true,
+    "outDir": "./dist/",
+    "preserveConstEnums": true,
+    "preserveValueImports": false,
+    "removeComments": true,
+    "sourceMap": false,
+    "sourceRoot": "",
+    "stripInternal": true,
+
+    /* Interop Constraints */
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "preserveSymlinks": true,
+    "verbatimModuleSyntax": true,
+
+    /* Type Checking */
+    "allowUnreachableCode": true,
+    "allowUnusedLabels": true,
+    "alwaysStrict": true,
+    "exactOptionalPropertyTypes": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strict": true,
+    "strictBindCallApply": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    "useUnknownInCatchVariables": true,
+
+    /* Completeness */
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true
+  }
+}

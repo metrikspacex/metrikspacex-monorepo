@@ -1,0 +1,46 @@
+{
+  "name": "@metrikspacex/monorepo",
+  "type": "module",
+  "scripts": {
+    "build": "pnpm --workspace-concurrency run build",
+    "clean": "pnpm run clean:*",
+    "clean:dist": "find ./ -name dist -type d -exec rm -rf {} +",
+    "clean:node_modules": "find ./ -name node_modules -type d -exec rm -rf {} +",
+    "clear": "pnpm run clear:*",
+    "clear:cache": "find ./ -name dist -type d -exec rm -rf {} +",
+    "clear:temp": "find ./ -name node_modules -type d -exec rm -rf {} +",
+    "eslint": "pnpm -r --parallel --filter='./packages/*' run eslint",
+    "markdownlin": "",
+    "prepare": "husky install",
+    "publint": "",
+    "test": "",
+    "update": ""
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "~0.34.6",
+    "@vitest/ui": "^0.34.6",
+    "coverage-istanbul": "link:@vitest/coverage-istanbul",
+    "husky": "^8.0.3",
+    "lint-staged": "^15.0.2",
+    "markdownlint": "^0.31.1",
+    "markdownlint-cli": "^0.37.0",
+    "prettier": "3.0.3",
+    "publint": "^0.2.5",
+    "sentences-per-line": "^0.2.1",
+    "vitest": "^0.34.6"
+  },
+  "scriptsComments": {
+    "build": "Builds all projects",
+    "clean": "Deletes all projects dist and node_modules folder",
+    "clean:dist": "Deletes all projects dist folder",
+    "clean:node_modules": "Deletes all projects node_modules folder",
+    "clear": " Deletes .cache and .temp folder",
+    "clear:cache": "Deletes all .cache folder",
+    "clear:temp": "Deletes all .temp folder",
+    "eslint": "Runs eslint on all files based on overrides in .eslintrc.cjs",
+    "prepare": "Initial husky",
+    "publint": "Lints all projects package.json files",
+    "test": "Runs tests on all files defined in vitest.config.ts",
+    "update": "global update to all projects"
+  }
+}
